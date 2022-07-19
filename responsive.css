@@ -52,10 +52,16 @@
     }
 
     .button-1,
-    .button-2,
+    .button-2 {
+        width: 100%;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+    }
+
     .button-3 {
         width: 100%;
     }
+
 
     .layout {
         display: grid;
@@ -148,7 +154,14 @@
     }
 
     .button-1,
-    .button-2,
+    .button-2 {
+        width: 210px;
+        height: 64px;
+        border: 1px solid #E8E8E8;
+        border-radius: 10px;
+
+    }
+
     .button-3 {
         width: 210px;
         height: 64px;
